@@ -1,0 +1,22 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.section_wrapper {
+  height: 100vh;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background: url(../img/bg_img.jpg) center center;
+  background-size: cover;
+}
+
+.section_wrapper h2 {
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 40px;
+  color: #fff;
+  text-shadow: 0 0 10px black;
+}

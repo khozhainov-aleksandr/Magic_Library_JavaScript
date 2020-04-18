@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "style.css",
+	"sources": [
+		"../scss/style.scss"
+	],
+	"sourcesContent": [
+		"* {\n    margin: 0;\n    padding: 0;\n}\n\nbody {\n    font-family: Georgia, 'Times New Roman', Times, serif;\n}\n\n.wrapper {\n    position: relative;\n    width: 100%;\n    height: 100vh;\n    background: url(../img/bg_img.jpg) no-repeat center;\n    background-size: cover;\n\n    &-container {\n        position: absolute;\n        top: 50%;\n        left: 50%;\n        transform: translate(-50%, -50%);\n        text-align: center;\n        color: #ffffff;\n    }\n}\n\n    .scroll_section {\n        width: 100%;\n        height: 100vh;\n        background: #eeeeee;\n    }\n\n\n"
+	],
+	"names": [],
+	"mappings": ";AAAA,AAAA,CAAC,CAAC;EACE,MAAM,EAAE,CAAC;EACT,OAAO,EAAE,CAAC;CACb;;;AAED,AAAA,IAAI,CAAC;EACD,WAAW,EAAE,wCAAwC;CACxD;;;AAED,AAAA,QAAQ,CAAC;EACL,QAAQ,EAAE,QAAQ;EAClB,KAAK,EAAE,IAAI;EACX,MAAM,EAAE,KAAK;EACb,UAAU,EAAE,sBAAsB,CAAC,SAAS,CAAC,MAAM;EACnD,eAAe,EAAE,KAAK;CAUzB;;;AARI,AAAD,kBAAW,CAAC;EACR,QAAQ,EAAE,QAAQ;EAClB,GAAG,EAAE,GAAG;EACR,IAAI,EAAE,GAAG;EACT,SAAS,EAAE,qBAAqB;EAChC,UAAU,EAAE,MAAM;EAClB,KAAK,EAAE,OAAO;CACjB;;;AAGD,AAAA,eAAe,CAAC;EACZ,KAAK,EAAE,IAAI;EACX,MAAM,EAAE,KAAK;EACb,UAAU,EAAE,OAAO;CACtB"
+}
