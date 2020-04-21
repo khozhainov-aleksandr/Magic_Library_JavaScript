@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "style.css",
+	"sources": [
+		"../scss/style.scss"
+	],
+	"sourcesContent": [
+		"* {\n    margin: 0;\n    padding: 0;\n    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;\n}\n\n.wrapper {\n    padding: 50px;\n    background: #000;\n\n    h1 {\n        text-align: center;\n        font-size: 40px;\n        color: #ffffff;\n        padding: 0 0 20px 0;\n    }\n\n    p {\n        font-size: 20px;\n        color: #ffffff;\n        padding: 10px;\n    }\n}\n\n#scrollPath {\n    position: fixed;\n    top: 0;\n    right: 0;\n    width: 10px;\n    height: 100%;\n    background: rgba(255, 255, 255, 0.05);\n}\n\n#progressbar {\n    position: fixed;\n    top: 0;\n    right: 0;\n    width: 10px;\n    height: 100%;\n    background: linear-gradient(to top, #008aff, #00ffe7);\n    animation: animate 5s linear infinite;\n}\n\n"
+	],
+	"names": [],
+	"mappings": ";AAAA,AAAA,CAAC,CAAC;EACE,MAAM,EAAE,CAAC;EACT,OAAO,EAAE,CAAC;EACV,WAAW,EAAE,yDAAyD;CACzE;;;AAED,AAAA,QAAQ,CAAC;EACL,OAAO,EAAE,IAAI;EACb,UAAU,EAAE,IAAI;CAcnB;;;AAhBD,AAII,QAJI,CAIJ,EAAE,CAAC;EACC,UAAU,EAAE,MAAM;EAClB,SAAS,EAAE,IAAI;EACf,KAAK,EAAE,OAAO;EACd,OAAO,EAAE,UAAU;CACtB;;;AATL,AAWI,QAXI,CAWJ,CAAC,CAAC;EACE,SAAS,EAAE,IAAI;EACf,KAAK,EAAE,OAAO;EACd,OAAO,EAAE,IAAI;CAChB;;;AAGL,AAAA,WAAW,CAAC;EACR,QAAQ,EAAE,KAAK;EACf,GAAG,EAAE,CAAC;EACN,KAAK,EAAE,CAAC;EACR,KAAK,EAAE,IAAI;EACX,MAAM,EAAE,IAAI;EACZ,UAAU,EAAE,yBAAyB;CACxC;;;AAED,AAAA,YAAY,CAAC;EACT,QAAQ,EAAE,KAAK;EACf,GAAG,EAAE,CAAC;EACN,KAAK,EAAE,CAAC;EACR,KAAK,EAAE,IAAI;EACX,MAAM,EAAE,IAAI;EACZ,UAAU,EAAE,yCAAyC;EACrD,SAAS,EAAE,0BAA0B;CACxC"
+}
