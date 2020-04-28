@@ -37,10 +37,15 @@ h2 {
 
     div {
         position: relative;
+        left: 5%;
         display: flex;
         justify-content: center;
         align-items: center;
         text-align: center;
+
+        // &:nth-last-child(1) {
+        //     margin-right: -90px;
+        // }
     }
 
     strong {
